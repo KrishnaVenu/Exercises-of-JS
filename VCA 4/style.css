@@ -1,0 +1,28 @@
+.mywork { 
+    border:2px solid black; 
+    width:420px; 
+    height:310px; 
+    text-align:center;
+    margin: 10px 350px 100px 350px;
+    background-color: rgb(103, 231, 188); 
+} 
+h1 { 
+    color:rgb(248, 12, 122); 
+    padding: 20px;
+    font-size: 38px;
+}
+h4{
+    font-size: larger;
+    color: rgb(7, 114, 253);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#button{
+
+color: white;
+width: 25%;
+letter-spacing: 1px;
+margin-top: 15px;
+}
