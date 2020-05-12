@@ -84,6 +84,23 @@ for (var x=0; x<=15; x++) {
     }
 }
 } 
+//  SEVENTH QUESTION  //
+function findLarge(){
+  let a=parseInt(document.getElementById("num1").value);
+  let b=parseInt(document.getElementById("num2").value) ;
+if(a>b){
+  console.log("The largest number is "+ a);
+}
+else if(a<b){
+  console.log("The largest number is "+ b);
+}
+else{
+  console.log("Please add an integer");
+}
+ }
+
+
+
 
 //  EIGHTH QUESTION   //
 
