@@ -1,6 +1,6 @@
 
               // FIRST QUESTION  //
-        // Function to check for prime number 
+         
         function checkPrime() { 
         var n, i, flag = true; 
              n = document.myform.n.value; 
@@ -11,7 +11,7 @@
                     break; 
 } 
                   
-            // Check and display output 
+          
             if (flag == true) {
                 console.log(n + " is prime");
             }
