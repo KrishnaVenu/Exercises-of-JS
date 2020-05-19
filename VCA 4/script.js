@@ -83,7 +83,30 @@ for (var x=0; x<=15; x++) {
     }
 }
 } 
+
+//  SIXTH QUESTION  //
+
+document.getElementById("btn").addEventListener("click", truncate);
+let myString ="Javascript function truncate a string if it is longer than the specified number of characters"; 
+function truncate(){
+const maxValue = 50;
+const TrimMyString = (string, maxLength, start = 0) => {
+  if (string.length > maxLength) {
+     let trimmedString = string.substr(start, maxLength);
+      return (
+        trimmedString.substr(
+        start,
+        Math.min(trimmedString.length,   trimmedString.lastIndexOf(' '))
+                            ) + ' ...'
+             )
+      }
+   return string;
+}
+console.log(TrimMyString(myString, maxValue));
+}
+
 //  SEVENTH QUESTION  //
+
 function findLarge(){
   let a=parseInt(document.getElementById("num1").value);
   let b=parseInt(document.getElementById("num2").value) ;
@@ -97,8 +120,6 @@ else{
   console.log("Please add an integer");
 }
  }
-
-
 
 
 //  EIGHTH QUESTION   //
