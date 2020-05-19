@@ -60,16 +60,15 @@ console.log(result.join(''));
 
 //    FOURTH QUESTION   //
 
-function sum_sq(array) {
-    var sum = 0, 
-        i = array.length;
-    while (i--) 
-     sum += Math.pow(array[i], 2);
-    return sum;
-  }
-   
-  console.log( "Sum of squares of an array is " + sum_sq([1,5,6,3,4])); 
-                                                
+function sum_sq() {
+  var sum = 0,array=[1,5,6,3,4],
+      i = array.length;
+  while (i--)
+   sum += Math.pow(array[i], 2); 
+console.log( "Sum of squares of an array is " + sum); 
+} 
+onclick="sum_sq()";
+
 //    FIFTH QUESTION      //
  function iterate(){  
 for (var x=0; x<=15; x++) {
@@ -110,3 +109,35 @@ function sort(){
     months.sort();
     console.log(months);
 }
+
+
+
+//  NINTH QUESTION  //
+
+document.getElementById("myBtn").addEventListener("click" , string2);
+var word = "Javascript";
+function string2(){
+for (var i = 0; i < word.length; i++) {
+  var str = "";
+  for (var j = 0; j <= i; j++) {
+    str += word[j];
+  }
+  console.log(str);
+}
+}
+
+//  TENTH QUESTION   //
+
+document.getElementById("myBtn2").addEventListener("click",string3);
+var i,j;
+function string3(){
+ for(i=1; i <= 5; i++)
+ {
+  for(j=1; j<=i; j++)
+ {
+   
+   document.write("*");
+  }
+   document.write("<br />");
+  }
+}  
